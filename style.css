@@ -1,9 +1,42 @@
-body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0px;}
+h2{color: grey;}
 h1{font-size: 40px;}
-.rtapon{color: aquamarine;}
+.rtapon{color: teal;}
 .half-width{width: 40%;
 float: left;
 margin-left: 5%;
 padding-left: 2%;}
-.half-width img{width: 75%;}
+.half-width img{width: 70%;}
+.top-banner{background-image: url("images/top-banner.png");
+background-repeat: no-repeat;}
+section{height: 500px;
+padding: 50px;}
+.link-button{text-decoration: none;
+    background-image: linear-gradient(cyan,black);
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 10px;
+color:orange;
+}
+.Dream-Area{background-image:url("images/dream-bg.png");
+ background-repeat: no-repeat;   
+ background-position: right;
+}
+.single-change{box-shadow: 10px 10px 40px cyan;
+border-radius: 5px; 
+height: 30%;}
+.down-area{background-image: url("images/exp-bg.png");
+background-repeat: no-repeat;
+background-position: left;}
+#full-stack{border-right: 5px solid;
+background-image: linear-gradient(orange,cyan);
+border border-image-slice: 1;
+}
+#line{ border-right: 5px solid;
+background-image:linear-gradient(cyan,orange);
+border border-image-slice: 1;
+}
+footer p{font-size: small;
+color: grey;}
